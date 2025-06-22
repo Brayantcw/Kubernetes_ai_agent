@@ -3,7 +3,7 @@
 This repository provides a minimal example of creating an AI agent that interacts with a Kubernetes cluster via the Google ADK MCP server.
 
 ## Overview
-
+![](docs/media/support_agent.png)
 The code uses the Google ADK agent framework to discover Kubernetes tools from an MCP server and then builds an `Agent` configured with those tools. The agent's behaviour is guided by prompts defined in `prompts.py`.
 
 ## Repository layout
