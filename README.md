@@ -20,13 +20,10 @@ The code uses the Google ADK agent framework to discover Kubernetes tools from a
    pip install -r requirements.txt
    ```
 2. Copy `.env` and adjust the values for your environment (API keys, backend selection, etc.).
-3. Create the agent in your own code:
-   ```python
-   from Kubernetes_agent import root_agent
-   import asyncio
 
-   agent, cleanup = asyncio.run(root_agent)
+3. Launch the agent with the ADK CLI:
+   ```bash
+   adk web Kubernetes_agent:root_agent
    ```
-   The returned `agent` is ready to handle Kubernetes-related tasks using the MCP tools.
-
+   This starts a local web interface where the agent is ready to process Kubernetes tasks.
 This project is intended as a simple demonstration of how to initialize a Kubernetes-focused AI agent with Google ADK.
