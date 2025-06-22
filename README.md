@@ -23,7 +23,7 @@ The code uses the Google ADK agent framework to discover Kubernetes tools from a
 
 3. Launch the agent with the ADK CLI:
    ```bash
-   adk web Kubernetes_agent:root_agent
+   adk web 
    ```
    This starts a local web interface where the agent is ready to process Kubernetes tasks.
 This project is intended as a simple demonstration of how to initialize a Kubernetes-focused AI agent with Google ADK.
